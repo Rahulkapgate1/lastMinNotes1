@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background:black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insta
+{
+    width: 270px;
+    height: 270px;
+    background: radial-gradient(circle at 33% 10%,#490d49 4%, #6b2bb4 30%, #244ca9 62%, #16c768 85%, #00FF7F);
+    border-radius: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+.insta-inner
+{
+    width: 200px;
+    height: 200px;
+    border: 18px solid #fff;
+    border-radius: 34px;
+}
+.notes
+{
+    width: 0;
+    height: 0;
+    
+    border: 18px ;
+    border-radius: 50%;
+}
+.notes1
+{
+    text-align: center;
+    width: 165px;
+    ;
+}
+.submit
+{
+    background-origin: padding-box;
+    bottom: 1000;
+}
+.ni{
+    background-color: #4CAF50;
+        /* Green */
+        border: none;
+        color: rgb(16, 2, 2);
+        padding: 3px 42px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        border-radius: 54px;
+        cursor: pointer;
+}
